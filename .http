@@ -1,0 +1,13 @@
+GET http://localhost:8080/notes
+X-Access-Token: ajsd09wj11897217192y39sajkdanczSJAS9137123
+
+###
+
+POST http://localhost:8080/notes
+Content-Type: application/json
+X-Access-Token: ajsd09wj11897217192y39sajkdanczSJAS9137123
+
+{
+    "title": "Hello Server",
+    "content": "Hello Content"
+}
