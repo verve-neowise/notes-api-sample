@@ -32,6 +32,10 @@ app.use((req, res, next) => {
     next()
 })
 
+app.get('/', (req, res) => {
+    res.send("Salom aleykum, Hush kelib siz API ga")
+})
+
 app.post('/notes', async (req, res) => {
     const body: Note = req.body
     
