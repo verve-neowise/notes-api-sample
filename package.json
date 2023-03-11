@@ -7,5 +7,8 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "prisma": "^4.11.0"
+  },
+  "scripts": {
+    "start": "ts-node server.ts"
   }
 }

@@ -21,6 +21,7 @@ type Note = {
 }
 
 app.use((req, res, next) => {
+    // token = undefined
     const token = req.header('x-access-token')
 
     if (!token || token != ACCESS_TOKEN) {
